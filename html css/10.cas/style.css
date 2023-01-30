@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(242, 186, 113);
+}
+.first {
+  background-image: url(https://img.freepik.com/free-vector/spring-floral-watercolor-background-vector-green-with-leaf-illustration_53876-126350.jpg?w=740&t=st=1674501419~exp=1674502019~hmac=75b1861e3fd2bfc6175f9ce8a032ed05e563bf7ef1d30c9dfebea82b4fd10f9e);
+  height: 600px;
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  /* background-size: ; */
+  /* background-size: cover; */
+  background-size: contain;
+}
+ul {
+  margin: auto;
+  width: 300;
+  list-style-position: inside;
+}
+li:nth-of-type(odd) {
+  background-color: blueviolet;
+}
+li:nth-of-type(even) {
+  background-color: rgb(226, 43, 43);
+}
+li :nth-last-child(1) {
+  background-color: rgb(20, 205, 119);
+}

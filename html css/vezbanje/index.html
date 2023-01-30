@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Agencija</title>
+  </head>
+  <body>
+    <header class="head">
+      <img
+        src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-vector-aircraft-png-image_1132683.jpg"
+        alt=""
+        width="100px"
+        height="100px"
+      />
+      <a href="#">Avio karte</a>
+      <a href="#">Ski pass</a>
+      <a href="#">Bus prevoz</a>
+      <a href="#">O nama</a>
+    </header>
+    <h1>PUTUJTE SA NAMA</h1>
+    <br /><br />
+    <form action="./letovanje.html" class="prvo">
+      <label for="username">
+        <input
+          type="username"
+          name="username"
+          id="username"
+          placeholder="username"
+          required
+        /> </label
+      ><br /><br />
+      <label for="password">
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="password"
+        />
+      </label>
+      <br /><br />
+      <select name="price" id="price">
+        <option value="do 200eura">do 200eura</option>
+        <option value="do 500eura">do 500eura</option>
+        <option value="do 700eura">do 700eura</option>
+        <option value="do 1000eura">do 1000eura</option>
+        <option value="preko 1000eura">preko 1000eura</option>
+      </select>
+      <br /><br />
+      <select name="letozima" id="letozima">
+        <a href="../vezbanje/letovanje.html"></a>
+        <option value="Letovanje">Letovanje</option>
+        <a href="./zimovanje.html"></a>
+        <option value="Zimovanje">Zimovanje</option>
+      </select>\
+      <BR></BR>
+      <button type="reset">RESETUJ</button>
+      <button type="submit">POTVRDI</button>
+    </form>
+  </body>
+</html>

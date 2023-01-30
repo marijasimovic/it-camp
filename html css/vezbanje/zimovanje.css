@@ -1,0 +1,51 @@
+.italy img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.italy {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+.france img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.france {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+.bulgaria img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.bulgaria {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+}

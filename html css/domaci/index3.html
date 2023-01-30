@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forma 1</h1>
+    <form action="./index.html" target="blank">
+      <br /><br />
+      <label for="name">Unesite vase ime</label>
+      <input type="name" name="ime" id="name" placeholder="username" required />
+      <br /><br />
+      <label for="password">Unesite vasu lozinku</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <br /><br />
+      <button type="submit">Potvrdi</button>
+    </form>
+    <br /><br />
+    <h2>Forma 2</h2>
+    <form action="./index2.html" target="blank">
+      <label for="username">Vas username</label>
+      <input
+        type="username"
+        name="username"
+        id="username"
+        placeholder="username"
+        required
+      />
+      <br /><br />
+      <label for="password">Vasa lozinka</label>
+      <input
+        type="password"
+        name="sifra"
+        id="password"
+        placeholder="password"
+        required
+      />
+      <br /><br />
+      <label for="date">Unesite vas datum rodjenja</label>
+      <input
+        type="date"
+        name="datum"
+        id="date"
+        min="1970-01-01"
+        max="2020-01-01"
+        required
+      />
+      <br /><br />
+      <label for="status">Odaberite vas status</label>
+      <select name="status" id="status">
+        <option value="zaposlen">zaposlen</option>
+        <option value="nezaposlen">nezaposlen</option>
+        <option value="ucenik">ucenik</option>
+      </select>
+      <br /><br />
+      <button type="reset">Resetuj</button>
+      <button type="submit">potvrdi</button>
+    </form>
+  </body>
+</html>

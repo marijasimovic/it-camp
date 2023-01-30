@@ -1,0 +1,51 @@
+.grcka img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.grcka {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+.turska {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+.turska img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.albanija {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 400px;
+  height: 500px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 20px;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px;
+}
+.albanija img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.main {
+  text-align: center;
+}

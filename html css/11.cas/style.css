@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(113, 128, 128);
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  color: rgb(3, 3, 85);
+  font-size: xx-large;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.head p {
+  display: inline;
+}
+.main {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 255px;
+  height: 255px;
+  border: 20px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border-radius: 5%;
+  padding: 20px;
+  display: inline-block;
+  margin: 5px;
+  overflow: auto;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.first {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 255px;
+  height: 255px;
+  margin: 5px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border: 2px;
+  border-radius: 5%;
+  padding: 20px;
+  display: inline-block;
+  overflow: auto;
+}
+.second {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 255px;
+  height: 255px;
+  margin: 5px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border: 20px;
+  border-radius: 5%;
+  padding: 20px;
+  display: inline-block;
+  overflow: auto;
+}
+.third {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 255px;
+  height: 255px;
+  margin: 5px;
+  box-shadow: 6px 6px 12px rgba(25, 1, 57, 0.3);
+  border: 20px;
+  border-radius: 5%;
+  padding: 20px;
+  display: inline-block;
+  overflow: auto;
+}
+.head {
+  height: 150px;
+  background-color: rgb(109, 25, 227, 0.3);
+}
+.head a {
+  margin: 10px;
+}
+.head img {
+  margin-right: 350px;
+  object-fit: contain;
+}
+.new {
+  text-align: right;
+}
+.novo {
+  text-align: center;
+}

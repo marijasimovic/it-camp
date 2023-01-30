@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(238, 150, 41);
+  padding: auto;
+}
+
+table {
+  margin: 30px auto 0px;
+  width: 1200px;
+  height: 400px;
+  background-color: rgb(242, 191, 125);
+  text-align: center;
+  /* border: 2px solid rgb(174, 122, 11); */
+  border-radius: 20px;
+  box-shadow: 6px 6px 12px rgb(80, 54, 0);
+  font-size: 20px;
+  border-collapse: collapse;
+}
+.prvi td {
+  color: rgb(209, 23, 23);
+  font-size: 30px;
+  text-transform: uppercase;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.deseti {
+  color: rgb(209, 23, 23);
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 2px solid rgb(163, 132, 66);
+  border-left: 0px;
+  border-right: 0px;
+}
+.deveti {
+  text-align: right;
+}
+
+tr:nth-last-of-type(even) {
+  background-color: rgb(230, 180, 116);
+}
+
+table tr td {
+  border: 2px dashed rgb(169, 133, 86);
+}
+
+table tr:nth-of-type(1) td,
+table tr:nth-last-child(1) td {
+  border: 0px solid red;
+}
+.deseti td {
+  border-left: 0px;
+  border-right: 0px;
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(76, 189, 226);
+}
+.main {
+  background-color: rgb(109, 25, 227, 0.3);
+  width: 600px;
+  height: 200px;
+  margin: 40px auto 0px;
+  border: 30px;
+  border-radius: 20px;
+  box
+}
+.main p {
+  text-align: right;
+  text-indent: 20px;
+}
+.main h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.main h2 {
+  text-transform: capitalize;
+}
+.main img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+.main img:hover {
+  transform: scaleX(-1);
+}
+.first {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.main:hover {
+  font-size: larger;
+}

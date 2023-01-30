@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.head {
+  background-color: rgb(255, 203, 124);
+  width: 2000px;
+  height: 110px;
+}
+h1 {
+  text-align: center;
+  color: rgb(126, 93, 45);
+}
+.head img {
+  margin-right: 900px;
+  object-fit: contain;
+}
+.head a {
+  margin: 10px;
+}
+.prvo {
+  text-align: center;
+}
+.head a {
+  margin: 10px;
+}
