@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(96, 2, 136);
+  padding: 2px;
+  margin: 20px 50px 50px 50px;
+}
+.first {
+  width: 750px;
+  height: 700px;
+  border: 1px white;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px 50px 50px 200px;
+  padding: 20px;
+}
+h3 {
+  font-family: Montserrat;
+  color: rgb(134, 80, 185);
+  font-size: 20px;
+}
+p {
+  font-family: Raleway;
+  color: rgb(0, 0, 0, 0.5);
+}
+h2 {
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+span {
+  color: red;
+}
+.second {
+  width: 300px;
+  height: 600px;
+  border: 1px white;
+  border-radius: 2%;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  left: 750px;
+  top: 250px;
+  box-shadow: 2px 2px 2px 2px rgb(96, 2, 136);
+}
+.form1 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 200px;
+  height: 33px;
+  margin-top: 2px;
+}
+.head {
+  background-image: url("https://www1.assets.heroku.com/assets/home/hero/salesforce_functions-bcfb96a6f5f818b1c86f3a4d4d2cfb9a22a99651166211a6a276013e86367e9a.png");
+  background-size: 470px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
