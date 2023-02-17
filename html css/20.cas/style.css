@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 60vh;
+  background-color: rgb(8, 112, 112);
+  display: flex;
+  /* flex-wrap: nowrap;
+   */
+  /* flex-wrap: wrap-reverse;*/
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px; /* prostor izmedju child */
+  /* column-gap: 15px; prostor izmedju child elemenata*/
+  /* row-gap: 15px;  prostor izmedju redova,necemo koristiti*/
+}
+.box {
+  flex-basis: 150px; /* umesto width */
+  height: 150px;
+  background-color: blanchedalmond;
+}
+.first {
+  /* align-self: flex-start; */
+  /* flex-grow: 1; trreba definisati i u ostalim child  */
+  /* flex-shrink: 3; property dolazi do izrazaja kada suzavamo ekran.treba imati definisanu sirinu childa kako bi imalo izrazaja */
+  /* order svojstvo nam sluzi da redja elemente */
+  order: 3;
+}
+.second {
+  background-color: rgb(240, 199, 138);
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 2;
+  margin-left: 35px;
+}
+.third {
+  background-color: rgb(164, 115, 41);
+  /* flex-grow: 1; */
+  /* flex-shrink: 1;
+ */
+  order: 1;
+}
