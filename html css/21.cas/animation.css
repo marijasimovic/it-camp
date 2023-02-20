@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: bisque;
+  width: 500px;
+  height: 500px;
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(164, 96, 229);
+  transition: all 1s 0.3s;
+  /* transition-property: transform ; NA KOJI SE PROPERTY ODNOSI */
+  /* transition-duration: 1s; TRAJANJE */
+  /* transition-timing-function: ease-in-out; FUNKCIJA PO KOJOJ SE VRSI */
+  /* transition-delay: 2s;  */
+}
+.parent:hover .child {
+  transform: translateY(100%);
+  /* translateX(100%); */
+  /* transform: translate(100%, 100%); */
+  background-color: darkgray;
+}
+/* .child:hover {
+    
+  transform: scale(0.5, 1.5);
+} */
