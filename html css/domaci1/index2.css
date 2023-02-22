@@ -104,7 +104,7 @@ p {
   font-size: 17px;
 }
 .ikonice i {
-  color: rgb(243, 158, 158);
+  color: rgb(113, 52, 217);
 }
 .druga {
   background-color: rgb(224, 224, 224);
@@ -127,6 +127,8 @@ p {
   position: relative;
   justify-content: space-around;
   top: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 footer {
   background-color: grey;
@@ -137,14 +139,14 @@ footer {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background-color: lime;
+  background-color: rgb(21, 0, 255);
   transition: transform 0.5s ease-in 0.5s;
 }
 .secondanimation {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background-color: lime;
+  background-color: rgb(21, 0, 255);
   float: right;
   transition: transform 0.5s ease-in-out 0.5s;
 }
