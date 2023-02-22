@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
 
 header {
   width: 100%;
@@ -123,6 +126,42 @@ p {
   display: flex;
   position: relative;
   justify-content: space-around;
-  top: 200px;
-  bottom: 100px;
+  top: 20px;
+}
+footer {
+  background-color: grey;
+  height: 160px;
+  margin-top: 30px;
+}
+.firstanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: lime;
+  transition: transform 0.5s ease-in 0.5s;
+}
+.secondanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: lime;
+  float: right;
+  transition: transform 0.5s ease-in-out 0.5s;
+}
+footer:hover .firstanimation {
+  transform: translateX(2600%);
+  transition: 1s;
+}
+footer:hover .secondanimation {
+  transform: translateX(-2600%);
+  transition: 1s;
+}
+.copyright {
+  clear: both;
+  width: 320px;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  color: white;
 }
