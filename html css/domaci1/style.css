@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(29, 29, 32, 255);
+}
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(42, 48, 56, 255);
+}
+header img {
+  width: 120px;
+  height: 90px;
+  margin-top: -10px;
+}
+header i {
+  color: rgba(161, 213, 251, 255);
+  position: absolute;
+  left: 150px;
+  top: 25px;
+  font-size: 20px;
+}
+header button {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(13, 147, 242, 255);
+  border: 1px solid rgba(13, 147, 242, 255);
+  margin-left: 10px;
+  color: white;
+}
+header a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+.new {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+.first img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 100px;
+  margin-top: -50px;
+  color: white;
+}
+.first button {
+  position: absolute;
+  left: 300px;
+  top: 80px;
+  width: 64px;
+  height: 20px;
+  font-size: 10px;
+  background-color: rgba(206, 212, 218, 255);
+  border-radius: 7px;
+  border: 1px solid rgba(206, 212, 218, 255);
+}
+h3 i {
+  font-size: 18px;
+  color: gray;
+  margin-left: 10px;
+}
+.first {
+  height: 80px;
+  border-bottom: 1px solid grey;
+}
+.novo {
+  margin-left: 100px;
+  margin-top: 18px;
+  color: white;
+}
+.desno {
+  position: absolute;
+  right: 400px;
+  top: 75px;
+  color: white;
+  border-right: 1px solid gray;
+  padding-right: 20px;
+}
+.drugo {
+  position: absolute;
+  right: 270px;
+  top: 75px;
+  color: white;
+  padding-right: 8px;
+}
+.trece {
+  position: absolute;
+  right: 100px;
+  top: 75px;
+  color: white;
+  text-align: center;
+  border-left: 1px solid gray;
+}
+.linkovi {
+  border-bottom: 1px solid gray;
+  height: 40px;
+  position: relative;
+  top: 20px;
+}
+.linkovi a {
+  margin: 15px;
+  text-decoration: none;
+}
+h2 {
+  margin-top: 20px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 20px;
+}
+p {
+  color: white;
+  margin-left: 20px;
+}
+footer {
+  height: 15vh;
+  width: 100%;
+  background-color: rgba(19, 49, 84, 255);
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+}
+hr {
+  color: gray;
+}
+footer a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+.links {
+  padding: 10px;
+}
+.links a {
+  margin-right: 10px;
+}
