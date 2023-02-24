@@ -130,17 +130,27 @@ footer {
   bottom: 0;
   padding-top: 10px;
 }
-hr {
-  color: gray;
-}
 footer a {
   color: white;
   margin: 15px;
   text-decoration: none;
 }
 .links {
-  padding: 10px;
+  padding: 5px;
+  border-top: 1px solid gray;
+  position: relative;
 }
 .links a {
-  margin-right: 10px;
+  margin-right: 5px;
+}
+.tekst {
+  text-align: right;
+}
+input {
+  width: 300px;
+  height: 30px;
+  background-color: gray;
+  position: relative;
+  top: -40px;
+  right: -200px;
 }
