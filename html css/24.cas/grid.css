@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 800px;
+  /* height: 1000px; */
+  background-color: aqua;
+  display: grid;
+  /* Koliko imamo kolona i koja sirina */
+  /* grid-template-columns: 200px 200px; */
+  /* grid-template-columns: 1fr 1fr 2fr; */
+  grid-template-columns: repeat(3, 200px);
+  /* koliko imamo redova i koja visina */
+  /* grid-template-rows: 200px 150px; */
+  /* za minmax nam trebaju 2 vrednosti,prva predstavlja minimalnu visinu a druga maksimalnu */
+  grid-auto-rows: minmax(180px, auto);
+
+  /* grid-row-gap: 15px; razmak izmedju redova */
+  /* grid-column-gap: 25px; razmak izmedju kolona */
+  grid-gap: 20px;
+  grid-template-areas:
+    "header header right"
+    "prvi drugi treci "
+    "cetvrti peti treci";
+}
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+.first {
+  background-color: rgb(196, 151, 238);
+  grid-area: header;
+}
+.second {
+  background-color: rgb(142, 245, 163);
+  grid-area: right;
+}
+.third {
+  background-color: rgb(238, 236, 151);
+  grid-area: prvi;
+}
+.fourth {
+  background-color: rgb(238, 181, 151);
+  grid-area: drugi;
+}
+.fifth {
+  background-color: rgb(166, 111, 117);
+  grid-area: treci;
+}
+.sixsth {
+  background-color: rgb(151, 174, 238);
+  grid-area: cetvrti;
+}
+.seventh {
+  background-color: rgb(252, 86, 86);
+  grid-area: peti;
+}
