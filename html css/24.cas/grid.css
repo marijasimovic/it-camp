@@ -25,11 +25,10 @@
     "prvi drugi treci "
     "cetvrti peti treci";
 }
-.child {
+/* .child {
   /* width: 150px; */
-  /* height: 150px; */
-}
-.first {
+/* height: 150px; */
+*/ .first {
   background-color: rgb(196, 151, 238);
   grid-area: header;
 }
