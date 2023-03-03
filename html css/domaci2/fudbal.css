@@ -13,7 +13,7 @@
 .header1 {
   background-color: white;
   text-align: right;
-  margin-right: 500px;
+  margin-right: 270px;
   grid-column: 1/-1;
 }
 .header1 img {
@@ -50,7 +50,7 @@ section {
   margin-top: -70px;
 }
 .card {
-  background-color: gray;
+  background-color: rgb(128, 128, 128, 0.2);
   text-align: center;
 }
 .header2 p {
