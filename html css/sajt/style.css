@@ -200,3 +200,18 @@ h2 {
 .sivo h5 {
   color: gray;
 }
+.statistics img {
+  width: 600px;
+  height: 350px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.statistics h2 {
+  color: black;
+  position: relative;
+  top: -400px;
+  left: 700px;
+  color: rgba(55, 81, 126, 255);
+  font-weight: 1000;
+  font-size: 30px;
+}
