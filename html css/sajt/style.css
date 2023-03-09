@@ -82,3 +82,121 @@ h2 {
   font-weight: 700;
   margin-right: 50px;
 }
+.header2 button {
+  position: relative;
+  left: 250px;
+  top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(55, 81, 126, 255);
+  color: white;
+  border: 1px solid lightskyblue;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.header3 button {
+  position: relative;
+  top: 220px;
+  left: 40px;
+  width: 100px;
+  height: 40px;
+  background-color: lightskyblue;
+  color: white;
+  border: 1px solid lightskyblue;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.slike img {
+  width: 50px;
+  height: 30px;
+  margin-right: 90px;
+}
+.slike {
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about h1 {
+  color: rgba(55, 81, 126, 255);
+  text-align: center;
+  margin-top: -120px;
+  font-weight: 900;
+}
+.tekst i {
+  color: lightskyblue;
+}
+.tekst {
+  margin-top: 220px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.desno {
+  text-align: right;
+  margin-top: -100px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.desno button {
+  background-color: white;
+  color: rgb(102, 194, 250);
+  border: 1px solid rgb(110, 196, 250);
+  border-radius: 2px;
+  font-size: 17px;
+  width: 150px;
+  height: 50px;
+  margin-right: 400px;
+}
+.sivo {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(243, 245, 250, 255);
+  padding: 50px;
+  margin-top: 20px;
+}
+.sivo p {
+  font-size: 30px;
+  color: black;
+}
+.icon-one {
+  width: 500px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.icon-two {
+  width: 500px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.icon-three {
+  width: 500px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.icon-one i {
+  color: rgb(109, 196, 251);
+  font-size: larger;
+}
+.icon-two i {
+  color: rgb(109, 196, 251);
+  font-size: larger;
+}
+.icon-three i {
+  color: rgb(109, 196, 251);
+  font-size: larger;
+}
+.sivo h5 {
+  color: gray;
+}
