@@ -5,7 +5,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   /* font-family: "Climate Crisis", cursive; */
 }
 .header1 {
@@ -237,4 +237,60 @@ h2 {
   font-size: 50px;
   font-weight: 900;
   padding-top: 20px;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.child1 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 2px 5px 5px rgb(178, 177, 177);
+}
+.child2 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 2px 5px 5px rgb(178, 177, 177);
+}
+.child3 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 2px 5px 5px rgb(178, 177, 177);
+}
+.child4 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 2px 5px 5px rgb(178, 177, 177);
+}
+.child1 i {
+  color: rgb(142, 226, 253);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.child2 i {
+  color: rgb(142, 226, 253);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.child3 i {
+  color: rgb(142, 226, 253);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.child4 i {
+  color: rgb(142, 226, 253);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.parent h2 {
+  text-align: center;
 }
