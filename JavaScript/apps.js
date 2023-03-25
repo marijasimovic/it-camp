@@ -80,3 +80,17 @@ obj = {
 };
 console.log(obj);
 console.log(typeof obj);
+
+//3. SET- Struktura podataka za skladistenje vise vrednosti koja ne dozvoljava duplikate.
+//Slicna je nizu (array) a sintaksa za pravljenje seta je:
+set = new Set(["Asija", "Melida", 19, 35]);
+console.log(set);
+//4.MAP - Struktura podataka za skladistenje vise vrednosti i slicna je objektu.Sintaksa je:
+map = new Map([
+  ["banana", 150],
+  [("kivi", 250)],
+  [("jabuka", 160)],
+  [("kruska", 260)],
+  [("jagoda", 150)],
+]);
+console.log(map);
