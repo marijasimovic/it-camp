@@ -95,3 +95,73 @@ console.log(5 - "string");
 console.log(5 * "string");
 
 //naN je broj cija vrednost nije korektna
+
+//4. OPERATORI POREDJENJA
+
+//== PROVERAVA DA LI SU JEDNAKE VREDNOSTI DVE STRANE
+
+console.log(5 == 5);
+console.log(5 == "5"); //imaju istu vrednost,ali im je tip razlicit
+console.log("leva" == "desna");
+
+//===
+
+//proverava da li su jednaki i tip i vrednost
+
+console.log(5 === "5");
+console.log(5 === 5);
+
+// != proverava razlicitost leve i desne strane
+
+console.log(5 != 5);
+console.log(5 != 6);
+
+//!== proverava razlicitost tipa ili vrednosti
+console.log(5 !== "5");
+console.log("sreda" !== "Sreda");
+
+//>
+console.log(4 > 6);
+
+//<
+console.log(4 < 6);
+
+//>=
+
+console.log(4 >= 5);
+
+//<=
+
+console.log(4 <= 5);
+
+//?
+const isSunny = false;
+const doINeedSunglasses = isSunny ? "Da" : "Ne";
+console.log(doINeedSunglasses);
+
+//5.LOGICKI OPERATORI
+
+//&& logicko i
+
+console.log(5 === "5" && 4 <= 6); //false
+console.log(5 == "5" && 4 <= 6); //true
+
+// || ili
+
+console.log(5 === "5" || "sreda" === "petak"); //false
+console.log(5 === 5 || "sreda" === "petak"); //true
+
+// ! not
+
+console.log(!isSunny);
+
+//6.TIPOVNI
+
+//typeof
+
+console.log(typeof 125);
+
+//instanceof
+
+console.log(123 instanceof Object);
+console.log([1, 2, 3] instanceof Array);
