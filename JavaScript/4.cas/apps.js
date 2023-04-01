@@ -19,3 +19,14 @@ if (y === 0) {
 } else {
   console.log(x / y);
 }
+
+const brojGodina = 26;
+if (brojGodina < 12) {
+  console.log("vi ste dete");
+} else if (brojGodina >= 12 && brojGodina < 18) {
+  console.log("maloletni ste");
+} else if (brojGodina >= 18 && brojGodina < 40) {
+  console.log("punoletni ste");
+} else {
+  console.log("vi ste zrela osoba");
+}
