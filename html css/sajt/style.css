@@ -94,6 +94,9 @@ h2 {
   border-radius: 20px;
   font-size: 15px;
 }
+.header2 button:hover {
+  background-color: lightskyblue;
+}
 .header3 button {
   position: relative;
   top: 220px;
