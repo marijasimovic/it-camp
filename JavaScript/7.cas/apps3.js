@@ -11,11 +11,11 @@ for (x = 99; x >= -99; x--) {
 // Izracunati aritmeticku sredinu brojeva koji su deljivi sa 3.
 // Iteracija se vrsi od 3 do 17.
 
-//for (x = 3; x <= 17; x++) {
-// if (x % 3 == 0) {
-// console.log(x);
-// }
-//}\\\
+for (x = 3; x <= 17; x++) {
+  if (x % 3 == 0) {
+    console.log(x);
+  }
+}
 s = 0;
 for (i = 1; i <= 5; i++) {
   s += i;
