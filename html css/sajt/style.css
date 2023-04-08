@@ -329,6 +329,7 @@ h2 {
 .slikka img {
   width: 100%;
   height: 300px;
+  opacity: 0.5s rgb(2, 2, 63);
 }
 .slikka button {
   position: relative;
