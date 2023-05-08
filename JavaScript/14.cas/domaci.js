@@ -23,13 +23,14 @@ function zbir1(a, b) {
 function aSredina(prvibr = 2, drugibr = 3, trecibr = 4) {
   return (prvibr + drugibr + trecibr) / 3;
 }
-console.log(aSredina(broj1, broj2, broj3));
+//console.log(aSredina(broj1, broj2, broj3));
 
 function povrsina(a, b) {
   if (a === b) {
-    return a ** 2;
+    return "povrsina kvadrata je  " + a ** 2;
   }
   if (a != b) {
-    return a * b;
+    return "povrsina pravougaonika je  " + a * b;
   }
 }
+console.log(povrsina(broj1, broj2));
