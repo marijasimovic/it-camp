@@ -51,6 +51,6 @@ function najduzaRec(string) {
       najduzaRec = nizReci[i];
     }
   }
-  return nizReci;
+  return najduzaRec.lenght;
 }
 console.log(najduzaRec(recenica));
