@@ -9,7 +9,7 @@ function zameniCifre(broj) {
   var brojString = broj.toString();
 
   if (brojString.length !== 4) {
-    console.log("Uneseni broj nije četveroznamenkast.");
+    console.log("Uneseni broj nije cetvorocifrens.");
     return;
   }
 
